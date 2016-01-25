@@ -9,9 +9,19 @@
 	color: #CC00AA;
 }
 
+body {
+     border: 1px dotted gray;
+     padding: 20px;
+     background: #3287AE
+}
+
 .jumbotron {
 	position: relative;
 	background: none;
+}
+
+.jumbotron p.active {
+     color: yellow;
 }
 
 .jumbotron:after {
@@ -27,9 +37,19 @@
 }
 
 .jumbotron p {
-     color: #6e6e6e;
+     /*color: #6e6e6e;*/
+     color: yellow;
 }
 
 .project a {
      text-align: center;
+     background-color: #deebf7;
+     padding: 20px;
+}
+
+.contentsTbl {
+     color: yellow
+}
+.contentsTbl a {
+     color: yellow
 }
